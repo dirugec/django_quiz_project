@@ -1,0 +1,50 @@
+:root {
+    --my-grey: rgb(84, 83, 83);
+}
+
+body,
+html {
+    background-color: orange;
+    height: 90%;
+    color: var(--my-grey);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.parent-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.centered-div {
+    align-items: center;
+    width: 80%;
+}
+
+.title {
+    text-decoration: underline;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    font-size: x-large;
+    padding-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--my-grey);
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}

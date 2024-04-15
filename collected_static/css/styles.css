@@ -1,0 +1,28 @@
+body,
+html {
+    background-color: green;
+    height: 100%;
+    color: lightgray;
+
+}
+
+.parent-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centered-div {
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+a {
+    text-decoration: none;
+}

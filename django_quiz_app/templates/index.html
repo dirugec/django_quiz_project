@@ -1,0 +1,21 @@
+{% extends "base_generic.html" %}
+
+
+
+{% block content %}
+<div class="parent-div">
+    <div class="centered-div">
+        <h1>Welcome to the Django Quiz App!</h1>
+        <p>Test your knowledge in General Culture!</p>
+        <p>Click on a quiz to start!</p>
+        
+        <ul>
+            {%for quiz in quizzes%}
+            <a href="{% url 'quiz_detail' quiz.id %}"><h1>{{quiz.title}}</h1></a>
+          
+        
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{%endblock%}
